@@ -2,7 +2,7 @@
 # spark-submit --master yarn --deploy-mode cluster python_scripts.zip '2022-05-31' '/user/master/data/events' '/user/username/data/events'
 
 
-import datetime from datetime
+from datetime import datetime 
 from airflow import DAG
 from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOperator
 import os

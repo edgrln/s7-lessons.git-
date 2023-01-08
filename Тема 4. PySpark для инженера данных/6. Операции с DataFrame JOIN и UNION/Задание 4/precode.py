@@ -32,3 +32,5 @@ columns_2 = ['title', 'book_id', 'author']
 df_1 = spark.createDataFrame(data=book_1 , schema=columns_1)
 df_2  = spark.createDataFrame(data=book_2 , schema=columns_2)
 # напишите ваш код ниже
+df_union = df_1.unionByName(df_2)
+df_union.show() 

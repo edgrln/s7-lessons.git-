@@ -1,0 +1,14 @@
++--------------------+----------+----------+
+|               event|event_type|      date|
++--------------------+----------+----------+
+|{null, null, 2022...|  reaction|2022-05-29|
+|{null, null, 2022...|  reaction|2022-05-29|
+|{null, null, 2022...|  reaction|2022-05-29|
+|{null, null, 2022...|  reaction|2022-05-29|
+|{null, null, 2022...|  reaction|2022-05-29|
+|{null, null, 2022...|  reaction|2022-05-29|
+|{null, null, 2022...|  reaction|2022-05-29|
+|{null, null, 2022...|  reaction|2022-05-29|
+|{null, null, 2022...|  reaction|2022-05-29|
+|{null, null, 2022...|  reaction|2022-05-29|
++--------------------+----------+----------+

@@ -1,1 +1,3 @@
 Сохраните результат вывода сюда:
+ |-- Name: string (nullable = true)
+ |-- Age: long (nullable = true)

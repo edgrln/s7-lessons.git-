@@ -32,7 +32,5 @@ df = spark.createDataFrame(data=book, schema=columns)
 df_library  = spark.createDataFrame(data=library, schema=columns_library )
 # напишите ваш код ниже
 
-df_joined = df.join(df_library, df.book_id == df_library.book_id, how='inner')
 
-df_final = df_joined.select('title').distinct().show(df_joined.count(),False)
-df_final
+df.join(df_library, df.book_id == df_library.book_id, how='leftanti').cache().explain()
