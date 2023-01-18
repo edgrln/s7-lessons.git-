@@ -13,6 +13,10 @@ C:\Users\elakshin\Documents\Projects\ReadingOutlook\ReadingOutlook\Scripts\pytho
 venv\Scripts\activate
 
 
+python3 -m venv venv
+source venv/bin/activate
+
+
 pip install -r requirements.txt
 
 
@@ -20,3 +24,7 @@ C:\Users\elakshin\Desktop\yp_de\de-5\Sprint_7_ELT_DataLake_Organization\s7-lesso
 
 
 C:\Users\elakshin\Desktop\yp_de\de-5\Sprint_7_ELT_DataLake_Organization\s7-lessons\venv\Scripts\pip.exe install -r requirements.txt
+
+
+`hdfs dfs -ls /user/master/data/snapshots`
+` hdfs dfs -ls /user/edgarlaksh/`
